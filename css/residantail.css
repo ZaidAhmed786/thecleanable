@@ -1,0 +1,120 @@
+.service-box {
+  padding: 20px 15px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.service-icon {
+  font-size: 50px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.service-title {
+  font-weight: 700;
+  color: #3f8cf0;   /* same orange as image */
+  margin-bottom: 15px;
+}
+
+.service-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-list li {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+
+.gift-card {
+  height: 180px;                 /* Set height */
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform .3s;
+}
+
+.gift-card:hover {
+  transform: translateY(-5px);
+}
+
+.gift-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+  
+  text-align: center;
+}
+
+.gift-overlay h5 {
+  font-size: 18px;
+  color: #555;
+  margin: 0;
+  font-weight: 600;
+}
+
+.gift-overlay h2 {
+  font-size: 32px;
+  margin: 5px 0;
+  color: #333;
+  font-weight: 800;
+}
+
+.gift-btn {
+  display: inline-block;
+  padding: 5px 18px;
+  background: #3f8cf0;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 14px;
+  text-decoration: none;
+  margin-top: 5px;
+  transition: background .3s;
+}
+
+.gift-btn:hover {
+  background: #3f8cf0;
+}
+
+
+.contact-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 25px;
+  border: 1px solid #eee;
+  background: #f7f1f1;
+  outline: none;
+}
+
+.contact-input:focus {
+  border-color: #d89a9a;
+}
+
+.contact-textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px;
+  border-radius: 15px;
+  border: 1px solid #eee;
+  background: #f7f1f1;
+  outline: none;
+}
+
+.submit-btn {
+  padding: 7px 25px;
+  border-radius: 25px;
+  border: 1px solid #999;
+  background: #fff;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.submit-btn:hover {
+  background: #f2eded;
+}

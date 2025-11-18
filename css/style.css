@@ -1,0 +1,280 @@
+/* ---------------- TOP BAR ---------------- */
+.top-bar {
+    background: #f3f3f3;
+    font-size: 14px;
+    color: #333;
+}
+
+/* ---------------- NAV LINKS ---------------- */
+.nav-link {
+    color: #333333a2 !important;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #1A4D8F !important;
+}
+
+/* ---------------- SOCIAL ICONS ---------------- */
+.social-icons a {
+    color: #333;
+    
+}
+
+.social-icons a:hover {
+    color: #1A4D8F;
+}
+.button{
+    background-color: #1A4D8F;
+    color: white;
+    padding: 6px 30px;
+    border-radius: 30px;
+}
+.button:hover{
+    background-color: #1A4D8F;
+    border-radius: 30px;
+    color: white;
+}
+/* ---------------- LOGIN BUTTON ---------------- */
+
+
+/* ---------------- APPOINTMENT BUTTON ---------------- */
+.appointment-btn {
+    background: #1A4D8F;
+    border-radius: 25px;
+    padding: 8px 18px;
+    font-size: 14px;
+    border: none;
+}
+
+.appointment-btn:hover {
+    background: #1A4D8F;
+}
+.text-primar{
+    color: #3f8cf0;
+}
+.btn-primary{
+    background-color: #333;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+     border-radius: 30px;
+     padding: 8px 30px;
+}
+.hello h1{
+  color: #1A4D8F;
+  font-size: 70px;
+  font-weight: 200;
+}
+.hello-2{
+  color: #1A4D8F;
+  font-size: 50px;
+  font-weight: 200;
+}
+.hello h4{
+  color: #333;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.carouselslide-2{
+    border-radius: 50px;
+}
+
+.carousel-item {
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+    }
+    .carousel-caption {
+      bottom: 50%;
+      transform: translateY(50%);
+      width: 50%;
+      background-color: white;
+      border-radius: 20px;
+      padding: 20px;
+    }
+    .carousel-caption h1 {
+      font-size: 4rem;
+      font-weight: bold;
+      color: #1A4D8F;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    }
+    .carousel-caption p {
+      font-size: 2rem;
+      color: #333;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+    }
+    .carousel-caption-2 {
+      margin-left: 40px;
+      margin-top: 40px;
+      width: 40%;
+      background-color: white;
+      border-radius: 20px;
+      padding: 20px;
+    }
+    .carousel-caption-2 h1 {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #1A4D8F;
+      
+    }
+    .carousel-caption-2 p {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #333;
+      
+    }
+    .why-choose{
+        background-color: #fff0e9;
+    }
+    .icon-box{
+        color: #1A4D8F;
+    }
+    .clean-card img{
+        width: 100%;
+        height: 300px;
+    }
+    /* Top Bar */
+.top-bar-2 {
+  background: #1A4D8F;
+  color: #fff;
+}
+
+.estimate-btn {
+  background: #5c5c5c;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.section-jj p{
+  font-size: 19px;
+}
+.section-jj li{
+  font-size: 19px;
+}
+.sticky-img {
+  position: sticky;
+  top: 60px; /* jitna gap chahiye adjust kar lena */
+  border-radius: 10px;
+}
+/* Footer Main */
+.footer {
+  background: #ffffff;
+  color: #333;
+}
+
+.footer-character {
+  width: 160px;
+}
+
+.footer-social i {
+  font-size: 20px;
+  margin-right: 15px;
+  color: #1A4D8F;
+  cursor: pointer;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+.footer-links li {
+  margin-bottom: 8px;
+}
+.footer-links a {
+  color: #1A4D8F;
+  text-decoration: none;
+}
+
+.request-btn {
+  display: inline-block;
+  padding: 10px 25px;
+  border: 2px solid #1A4D8F;
+  border-radius: 30px;
+  color: #1A4D8F;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ddd;
+  color: #777;
+  font-size: 14px;
+}
+.button-2{
+    width: 250px;
+     background-color: #1A4D8F;
+    color: white;
+    padding: 6px 30px;
+    border-radius: 30px;
+}
+.button-2:hover{
+    width: 250px;
+     background-color: #333;
+    color: white;
+    padding: 6px 30px;
+    border-radius: 30px;
+}
+    @media (max-width: 768px) {
+        .hello h1{
+  color: #1A4D8F;
+  font-size: 50px;
+  font-weight: 200;
+}
+.hello-2{
+  color: #1A4D8F;
+  font-size: 35px;
+  font-weight: 200;
+}
+.hello h4{
+  color: #333;
+  font-size: 30px;
+  font-weight: 200;
+}
+        .carousel-caption {
+      bottom: 50%;
+      transform: translateY(50%);
+      width: 70%;
+      background-color: white;
+      border-radius: 20px;
+      padding: 20px;
+    }
+      .carousel-caption-2 {
+      margin-left: 40px;
+      margin-top: 40px;
+      width: 80%;
+      background-color: white;
+      border-radius: 20px;
+      padding: 20px;
+    }
+      .carousel-caption h1 {
+        font-size: 2rem;
+      }
+        .carousel-caption-2 h1 {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #1A4D8F;
+      
+    }
+    .carousel-caption-2 p {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #333;
+      
+    }
+      .carousel-item {
+      height: 55vh;
+     
+      background-size: cover;
+      background-position: center;
+    }
+      .carousel-caption p {
+        font-size: 1rem;
+      }
+    }
